@@ -10,13 +10,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maluch Rejser 2 (chyba)</title>
     <link rel="shortcut icon" href="./../img/fiat_126p.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="./../css/main.css">
+    <link rel="stylesheet" href="./../css/style.css">
 </head>
 
 <body>
 
     <main>
-        <!-- <div class="car" data-picked="false" id="car1"><img src="./../img/fiat_126p.jpg" alt="Fiat 126p"></div> -->
+        <div class="settings">
+            <input type="number" class="settings_input" id="raceLengthInput" placeholder="Długość wyścigu w px">
+        </div>
         <div class="cars">
             <?php 
                 $i = 1;
@@ -29,7 +31,7 @@
     </main>
 
 
-    <script src="././js/main.js"></script>
+    <script src="./../js/script.js"></script>
 </body>
 
 </html>

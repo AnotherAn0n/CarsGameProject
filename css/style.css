@@ -1,0 +1,37 @@
+:root {
+	--bg_color: #333;
+	--main_color: lime;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+}
+body {
+	background-color: var(--bg_color);
+	height: 100vh;
+}
+main {
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.car {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.car img {
+	width: 100px;
+	height: 70px;
+}
+.cars {
+	width: 100%;
+}
